@@ -44,3 +44,11 @@ Since remote information is not something that git stores in the repositories, y
 
 To make thing simpler, you can use the script `new-project.sh` to create new projects--it will create a new project repo and do the initial merge--and you can use `merge-base.sh` to merge new code in from the base repository.
 
+
+## Setting up a new class
+
+When you are about to run a new class, create a new organisation for it (that way you can handle repos and administration access separately year for year). For year 20xx, create birc-ctib-20xx, for example.
+
+In that repo, go to Settings > Member privilages and change Base permissions to Read. Otherwise, the students cannot invite each other to review (and it is nice to get them to do that).
+
+Then, setup a GitHub Classroom and all the exercises--I don't think you can automate this, unfortunately.
